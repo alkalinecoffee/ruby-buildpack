@@ -106,6 +106,12 @@ dependencies:
   md5: 1aa7047b7f7c233130ffef1af71bf7de
   cf_stacks:
   - cflinuxfs2
+- name: jruby
+  version: ruby-2.3.1-jruby-9.1.5.0
+  uri: https://s3.amazonaws.com/jruby.org/downloads/9.1.5.0/jruby-bin-9.1.5.0.tar.gz
+  md5: e9b2cc44757db4cfbe7da79601d0169a
+  cf_stacks:
+  - cflinuxfs2
 - name: node
   version: 4.6.2
   uri: https://buildpacks.cloudfoundry.org/concourse-binaries/node/node-4.6.2-linux-x64.tgz
